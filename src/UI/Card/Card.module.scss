@@ -1,0 +1,24 @@
+.card {
+    background-color: #f9f6f6;
+    padding: 12px;
+    height: 440px;
+
+    img {
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    a {
+        display: inline-block;
+        color: #7fa6ff;
+        text-decoration: underline;
+    }
+
+    &__body {
+        * {
+            word-wrap: break-word;
+            width: 100%;
+        }
+    }
+}
