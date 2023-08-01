@@ -40,8 +40,6 @@ const resultsSlice = createSlice({
     resultsUpdated(
       state,
       action: PayloadAction<{
-        value: string;
-        type: SearchType;
         totalCount: number;
         items: unknown[];
         page: number;

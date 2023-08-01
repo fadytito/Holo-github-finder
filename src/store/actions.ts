@@ -42,8 +42,6 @@ export const getResults = (type: SearchType, value: string, page: number) => {
     dispatch(
       resultsActions.resultsUpdated({
         items,
-        type,
-        value,
         totalCount,
         page,
       })
